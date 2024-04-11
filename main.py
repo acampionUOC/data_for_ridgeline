@@ -63,7 +63,7 @@ def save_data_models_to_file(out_file, out_data_df, out_sort_df, out_model_df):
 
 # define input and output dataset
 file = r'dataset\temp_BNC_aeropuerto_1954_2024.csv'
-out_file = r'dataset\output.xlsx'
+out_file = r'dataset\output_temp_BCN.xlsx'
 
 # load dataset
 df = load_dataset(file)
